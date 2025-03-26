@@ -1,4 +1,8 @@
-# venv
+# clonar el repositorio
+```bash
+    git clone https://github.com/alejojav/Agente-Basico.git
+
+# crear venv
 ```bash
     python -m venv agente_basico_venv
 ```
@@ -13,12 +17,12 @@
     source .venv/bin/activate
 ```
 
-# install requirements
+# instalar requierimientos
 ```bash
 pip install -r requirements.txt
 ```
 
-# run fastapi
+# ejecutar fastapi
 ``` bash
     fastapi dev main.py
 ```    
